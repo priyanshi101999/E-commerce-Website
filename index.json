@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "fullName": "Priyanshi",
+      "email": "Tripathi",
+      "password": "Admin@123",
+      "id": 2
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "fullName": "Rohan",
+      "email": "Rajan",
+      "password": "Admin@123",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

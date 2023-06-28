@@ -1,0 +1,28 @@
+<div class="container" *ngIf="signUpNow">
+
+    <h1>SignUp</h1>
+    <form class="common_form" [formGroup]="signUpForm" (ngSubmit)="signUp(signUpForm.value)" >
+        <input class="form_input" type="text" formControlName="fullName" placeholder="FULL NAME">
+        <input  class="form_input" type="text" formControlName="email" placeholder="EMAIL">
+        <input  class="form_input" type="password" formControlName="password" placeholder="PASSWORD">
+        <a (click)="openLogin()" class="login_link"> Already have an account? Click here to Login</a>
+
+        <button class="form_button">SIGNUP</button>
+    </form>
+</div>
+
+
+<!-- login page -->
+<div class="container" *ngIf="logInNow">
+
+    <h1>Login</h1>
+    <p>{{ errorMsg }}</p>
+    <form class="common_form" [formGroup]="loginForm" (ngSubmit)="login(loginForm.value)"  >
+
+        <input  class="form_input" type="text" formControlName="email" placeholder="EMAIL">
+        <input  class="form_input" type="password" formControlName="password" placeholder="PASSWORD">
+        <a (click)=" openSignUp()" class="login_link"> Don't have an account? Click here to SignUp</a>
+        <button class="form_button">LOGIN</button>
+    </form>
+</div>
+
