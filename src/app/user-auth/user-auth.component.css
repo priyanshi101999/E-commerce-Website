@@ -1,0 +1,47 @@
+.container{
+    padding: 56px;
+    margin: auto;
+    align-items: center;
+margin-top: 40px ;
+    background-color: white;
+    width: 372px;
+    margin-bottom: 80px;
+}
+
+
+.container h1{
+    margin: 0;
+}
+
+.common_form{
+   display: flex;
+   flex-direction: column;
+  width: 360px;
+  margin-top: 56px;
+}
+
+.common_form p{
+    margin-top: 12px
+}
+
+.container button{
+    margin-top: 64px;
+}
+
+.login_link{
+    margin-bottom: 60px;
+    color: rgb(58, 1, 94);;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.invalid-feedback{
+    margin: 0px;
+
+}
+
+button:disabled{
+    background-color: white;
+    color: rgb(58, 1, 94);;
+    border: 2px solid rgb(58, 1, 94);;
+}

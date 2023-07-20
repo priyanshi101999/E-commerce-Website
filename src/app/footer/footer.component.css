@@ -1,0 +1,51 @@
+.footer {
+
+    height: 300px;
+    right: 0px;
+    left: 0px;
+
+
+
+    border: 1px solid #ddd;
+    background-color: white;
+
+
+
+     /* position: absolute; 
+    bottom: 0;  */
+
+
+}
+
+
+.footer .main {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding: 56px 120px;
+}
+
+.footer .main ul {
+    list-style-type: none;
+    /* display: inline-flex; */
+}
+
+.footer .main ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 32px;
+    font-size: 20px;
+
+}
+
+
+._footer_bottom {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding: 24px 24px 24px 120px;
+}
+
+.logo h1{
+    cursor: pointer;
+}

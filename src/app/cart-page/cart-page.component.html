@@ -1,0 +1,45 @@
+<div class="product-list-wrapper">
+    <h1>Your Cart </h1>
+
+<!-- price summary -->
+    <div class="summary col-sm-4">
+        <h4>Summary</h4>
+        <ul>
+            <li><span class="_property">Price</span><span class="_value">{{priceSummary.price}}</span></li>
+            <li><span class="_property">Tax</span><span class="_value">{{priceSummary.tax}}</span></li>
+            <li><span class="_property">Delievery</span><span class="_value">{{priceSummary.delievery}}</span></li>
+            <li><span class="_property">Discount</span><span class="_value">{{priceSummary.discount}}</span></li>
+            <li>
+                <h5 class="_property">Total</h5>
+                <h5 class="_total_price">{{priceSummary.total}}</h5>
+            </li>
+            <button class="_checkout_btn" (click)="checkOut()">Checkout</button>
+        </ul>
+    </div>
+
+
+	<!-- your products -->
+    <h1>Your Product</h1>
+		<div class="row">
+			<div class="product-row col-sm-3" *ngFor="let item of cartList">
+				<div class="product-item">
+					<img src="{{item.productURL}}" alt="" class="product_image" routerLink="/product-detail/{{item.id}}" >
+
+					<div class="product-detail">
+						<h5 class="name-head">{{item.productName}}</h5>
+						<div class="product-price">Price: {{item.price}}</div>
+						<div class="product-color">Color: {{item.color}}</div>
+
+					</div>
+
+
+					<div class="product-footer">
+						<button (click)=" removeToCart(item.id)" >Remove to Cart</button>
+						
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>

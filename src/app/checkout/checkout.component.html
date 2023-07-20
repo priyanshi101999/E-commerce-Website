@@ -1,0 +1,45 @@
+<div class="container">
+
+    <h1>checkOut</h1>
+    <p class="success_msg">{{orderMsg}}</p>
+
+
+    <!-- Checkout form -->
+    <form class="common_form" [formGroup]="checkoutForm " (ngSubmit)="orderNow(checkoutForm.value)">
+        <input class="form_input" type="text" formControlName="address" placeholder="ADDRESS">
+        <div *ngIf="((submitted && f['address'].errors) || (f['address'].touched) || (f['address'].dirty) )"
+            class="invalid-feedback d-block">
+            <div *ngIf="f['address'].errors?.['required']">
+                Please Enter Your Full Name
+            </div>
+        </div>
+
+        <input class="form_input" type="text" formControlName="email" placeholder="EMAIL">
+        <div *ngIf="((submitted && f['email'].errors) || (f['email'].touched) || (f['email'].dirty) )"
+            class="invalid-feedback d-block">
+            <div *ngIf="f['email'].errors?.['required'] || f['email'].errors?.['email']">
+                Please Enter Valid Email
+            </div>
+        </div>
+
+        <input class="form_input" type="text" formControlName="contactNo" placeholder="MOBILE NUMBER" maxlength="10">
+        <div *ngIf="((submitted && f['contactNo'].errors) || (f['contactNo'].touched) || (f['contactNo'].dirty) )"
+            class="invalid-feedback d-block">
+            <div *ngIf=" f['contactNo'].errors?.['required'] ||
+            f['contactNo'].errors?.['minlength']">
+                Please Enter Valid Contact number
+            </div>
+        </div>
+
+        <!-- Total Price -->
+        <div class="_totle_price">
+            <h5>Total Amount:</h5>
+            <h4> ₹ {{totalPrice}}</h4>
+
+        </div>
+
+
+        <button class="form_button"> CHECKOUT</button>
+
+    </form>
+</div>

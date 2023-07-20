@@ -1,0 +1,122 @@
+
+.product-list-wrapper{
+    margin: 80px;
+    padding: 40px 0px 0px 120px;
+    background-color: white;
+}
+
+.product-list-wrapper .row{
+    justify-content:left;
+    gap: 40px;
+}
+
+
+._cover{
+display: flex;
+flex-direction: row;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+
+.product-list-wrapper h1{
+margin: 44px  0px 44px 0px;
+}
+
+.product-item{
+    margin-bottom: 40px;
+    border: none;
+    margin-bottom: 90px;
+    
+}
+
+.product-item .product_image{
+    width: 100%;
+    height: 350px;
+cursor: pointer;
+
+}
+
+
+
+
+.product-item .product-footer  button{
+border: 2px solid rgb(60, 60, 60);
+background-color: transparent;
+margin-top: 20px ;
+    padding: 8px;
+    color:rgb(58, 1, 94)
+
+}
+
+
+.product-item .product-footer  button:hover{
+    background-color: rgb(58, 1, 94);
+    color: white;
+}
+
+
+.product-detail .name-head{
+    font-weight:700;
+    margin: 20px 0px 20px 0px;
+}
+
+.product-detail .product-price , .product-color{
+    margin-bottom: 4px;
+}
+
+.product-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    object-fit: cover;
+}
+
+
+
+/* summary */
+.summary ul{
+    list-style-type: none;
+    padding: 8px 0px 8px 0px;
+   
+}
+
+
+.summary ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+._checkout_btn{
+    width: 100%;
+    height: 52px;
+    background-color:transparent;
+    color: rgb(58, 1, 94);
+    font-weight: 700;
+    margin-top: 12px;
+    font-size: 18px;
+    border: 2px solid rgb(58, 1, 94);
+}
+
+._checkout_btn:hover{
+    background-color: rgb(58, 1, 94);
+    color: white;
+}
+
+._property{
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+._value{
+    font-size: 20px;
+    margin-bottom: 4px;
+font-weight: 500;
+}
+
+._total_price{
+    font-size: 22px;
+    font-weight: 600;
+}

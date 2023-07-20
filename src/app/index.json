@@ -1,0 +1,132 @@
+{
+  "posts": [
+    {
+      "fullName": "Mansi Mahant",
+      "email": "mansi@gmail.com",
+      "password": "Admin@12",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "productName": "sofa",
+      "price": "2000",
+      "color": "black",
+      "category": "furniture",
+      "description": "comfort for your family",
+      "productURL": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c29mYXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 4
+    },
+    {
+      "productName": "Guitar",
+      "price": "2000",
+      "color": "Pink",
+      "category": "music instrument",
+      "description": "music make enviroment rainy lorem Vicky Kaushal is an Indian actor who works in Hindi films. He is the recipient of numerous accolades, including a National Film Award and two Filmfare Awards, and has appeared in Forbes India's Celebrity 100 list of 2019.",
+      "productURL": "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGd1aXRhcnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 5
+    },
+    {
+      "productName": "Plant",
+      "price": "2000",
+      "color": "black",
+      "category": "Nature",
+      "description": "plants makes you calmer",
+      "productURL": "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGxhbnR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "id": 6
+    },
+    {
+      "productName": "TV ",
+      "price": "4000",
+      "color": "TV ",
+      "category": "TV ",
+      "description": "TV ",
+      "productURL": "https://images.unsplash.com/photo-1593784991095-a205069470b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VFZ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60",
+      "id": 7
+    },
+    {
+      "productName": "wallet",
+      "price": "3200",
+      "color": "brown",
+      "category": "Bags",
+      "description": "wallet is the most important part of human life. because it helps you keep your money.",
+      "productURL": "https://images.unsplash.com/3/www.madebyvadim.com.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI4fHxmYXNoaW9ufGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 8
+    },
+    {
+      "productName": "Paint",
+      "price": "3200",
+      "color": "Rainbow",
+      "category": "Decore",
+      "description": "Today’s slideshow Doodle celebrates American scientist and women’s rights activist Eunice Newton Foote, who is widely considered to be one of the most significant scientists of her time.",
+      "productURL": "https://images.unsplash.com/photo-1598112152963-535bfc3596f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhaW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60https://images.unsplash.com/photo-1598112152963-535bfc3596f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhaW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60https://images.unsplash.com/photo-1598112152963-535bfc3596f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhaW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60https://images.unsplash.com/photo-1598112152963-535bfc3596f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhaW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60https://images.unsplash.com/photo-1598112152963-535bfc3596f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhaW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60https://images.unsplash.com/photo-1598112152963-535bfc3596f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhaW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60https://images.unsplash.com/photo-1598112152963-535bfc3596f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhaW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 9
+    },
+    {
+      "productName": "Umbrella",
+      "price": "430",
+      "color": "Yellow",
+      "category": "Equipment",
+      "description": "Today’s slideshow Doodle celebrates American scientist and women’s rights activist Eunice Newton Foote, who is widely considered to be one of the most significant scientists of her time.",
+      "productURL": "https://images.unsplash.com/photo-1606593442653-cee4bf18bec3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHVtYnJlbGxhfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 10
+    }
+  ],
+  "user": [
+    {
+      "fullName": "Priyanshi Tripathi",
+      "email": "tripathipriyanshi681@gmail.com",
+      "password": "Admin@12",
+      "id": 1
+    },
+    {
+      "fullName": "Aayush Tripathi",
+      "email": "aayush@gmail.com",
+      "password": "Admin@12",
+      "id": 2
+    }
+  ],
+  "cart": [],
+  "order": [
+    {
+      "email": "tripathipriyanshi681@gmail.com",
+      "address": "Prabhakiran 2",
+      "contactNo": "7069798754",
+      "userId": 1,
+      "totalPrice": 28700,
+      "id": 1
+    },
+    {
+      "email": "tripathipriyanshi681@gmail.com",
+      "address": "Prabhakiran 2",
+      "contactNo": "7069798754",
+      "userId": 1,
+      "totalPrice": 3259,
+      "id": 2
+    },
+    {
+      "email": "tripathipriyanshi681@gmail.com",
+      "address": "Prabhakiran 2",
+      "contactNo": "7069798754",
+      "userId": 1,
+      "totalPrice": 4260,
+      "id": 3
+    },
+    {
+      "email": "tripathipriyanshi681@gmail.com",
+      "address": "Prabhakiran 2",
+      "contactNo": "7069798754",
+      "userId": 1,
+      "totalPrice": 2700,
+      "id": 4
+    },
+    {
+      "email": "aayush@gmail.com",
+      "address": "Prabhakiran 2",
+      "contactNo": "7069798754",
+      "userId": 2,
+      "totalPrice": 5300,
+      "id": 5
+    }
+  ]
+}

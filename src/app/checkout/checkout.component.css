@@ -1,0 +1,39 @@
+.container {
+    padding: 56px;
+    margin: auto;
+    align-items: center;
+    margin-top: 40px;
+    background-color: white;
+    width: 372px;
+    margin-bottom: 80px;
+}
+
+.container button {
+    margin-top: 64px;
+}
+
+.common_form p {
+    margin-top: 12px
+}
+
+.container h1 {
+    margin: 0;
+}
+
+
+.common_form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-top: 56px;
+}
+
+._totle_price {
+    margin-top: 32px;
+    display: inline-block;
+}
+
+._totle_price h4 {
+    font-weight: 600;
+    font-size: 32px;
+}

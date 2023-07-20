@@ -1,0 +1,57 @@
+<div class="container">
+    <h1>Add Product</h1>
+    <p class="success_msg">{{addProductMessage}}</p>
+
+    <!-- add product form -->
+    <form class="common_form" [formGroup]="addProductForm" (ngSubmit)="addProduct(addProductForm.value)">
+
+        <input class="form_input" type="text" formControlName="productName" placeholder="Enter Product Name">
+        <div *ngIf="((submitted && f['productName'].errors) || (f['productName'].touched) || (f['productName'].dirty) )"
+            class="invalid-feedback d-block">
+            <div *ngIf="f['productName'].errors?.['required']">
+                Please Enter product Name
+            </div>
+        </div>
+
+        <input class="form_input" type="text" formControlName="price" placeholder="Enter Product Price">
+        <div *ngIf="((submitted && f['price'].errors) || (f['price'].touched) || (f['price'].dirty) )"
+            class="invalid-feedback d-block">
+            <div *ngIf="f['price'].errors?.['required']">
+                Please Enter Price
+            </div>
+        </div>
+
+        <input class="form_input" type="text" formControlName="color" placeholder="Enter Product Color">
+        <div *ngIf="((submitted && f['color'].errors) || (f['color'].touched) || (f['color'].dirty) )"
+            class="invalid-feedback d-block">
+            <div *ngIf="f['color'].errors?.['required']">
+                Please Enter Color
+            </div>
+        </div>
+
+        <input class="form_input" type="text" formControlName="category" placeholder="Enter Product Category">
+        <div *ngIf="((submitted && f['category'].errors) || (f['category'].touched) || (f['category'].dirty) )"
+            class="invalid-feedback d-block">
+            <div *ngIf="f['category'].errors?.['required']">
+                Please Enter Category
+            </div>
+        </div>
+
+        <input class="form_input" type="text" formControlName="description" placeholder="Enter Product Description">
+        <div *ngIf="((submitted && f['description'].errors) || (f['description'].touched) || (f['description'].dirty) )"
+            class="invalid-feedback d-block">
+            <div *ngIf="f['description'].errors?.['required']">
+                Please Enter Description
+            </div>
+        </div>
+
+        <input class="form_input" type="text" formControlName="productURL" placeholder="Enter Product URL">
+        <div *ngIf="((submitted && f['productURL'].errors) || (f['productURL'].touched) || (f['productURL'].dirty) )"
+            class="invalid-feedback d-block">
+            <div *ngIf="f['productName'].errors?.['required']">
+                Please Enter productURL
+            </div>
+        </div>
+        <button class="form_button">ADD PRODUCT</button>
+    </form>
+</div>

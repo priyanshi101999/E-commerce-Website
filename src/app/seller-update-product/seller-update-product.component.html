@@ -1,0 +1,25 @@
+<div class="container" >
+    <h1>Update Product</h1>
+
+    <p class="success_msg">{{updateMessage}}</p>
+
+    <!-- update product form -->
+    <form class="common_form" [formGroup]="updateProductForm"  (ngSubmit)="updateProduct(updateProductForm.value, productData.id)">
+    
+        <input class="form_input" type="text" formControlName="productName" placeholder="Enter Product Name" >
+
+        <input  class="form_input" type="text" formControlName="price" placeholder="Enter Product Price" >
+
+        <input  class="form_input" type="text" formControlName="color" placeholder="Enter Product Color" >
+
+        <input  class="form_input" type="text" formControlName="category" placeholder="Enter Product Category" >
+        
+        <input  class="form_input" type="text" formControlName="description" placeholder="Enter Product Description" >
+
+        <input  class="form_input" type="text" formControlName="productURL" placeholder="Enter Product URL" >
+        
+
+        <button class="form_button">UPDATE PRODUCT</button>
+    </form>
+</div>
+

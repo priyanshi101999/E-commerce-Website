@@ -1,0 +1,65 @@
+<div class="container " *ngIf="!showLogin">
+    <div class="signUp">
+        <h1>Sign Up</h1>
+
+        <!-- signup form -->
+        <form class="common_form" [formGroup]="signUpForm" (ngSubmit)="signUp(signUpForm.value)">
+
+            <input class="form_input" type="text" formControlName="fullName" placeholder="ENTER YOUR FULL NAME">
+            <div *ngIf="((submitted && signup['fullName'].errors) || (signup['fullName'].touched) || (signup['fullName'].dirty) )"
+                class="invalid-feedback d-block">
+                <div *ngIf="( (signup['fullName'].errors?.['required']) )">
+                    Please Enter valid Full Name</div>
+            </div>
+
+            <input class=" form_input" type="text" formControlName="email" placeholder="EMAIL">
+            <div *ngIf="((submitted && signup['email'].errors) || (signup['email'].touched) || (signup['email'].dirty) )"
+                class="invalid-feedback d-block">
+                <div *ngIf="( (signup['email'].errors?.['required']) || (signup['email'].errors?.['email']))">
+                    Please Enter valid Email</div>
+            </div>
+
+            <input class="form_input" type="password
+            " formControlName="password" placeholder="PASSWORD">
+            <div *ngIf="((submitted && signup['password'].errors) || (signup['password'].touched) || (signup['password'].dirty) )"
+                class="invalid-feedback d-block">
+                <div *ngIf="signup['password'].errors?.['required'] || signup['password'].errors?.['minlength'] || signup['password'].errors?.['maxlength'] ">
+                    Please Enter Valid password
+                </div>
+            </div>
+            <button class="form_button">SignUp</button>
+            <p> Already have an account? <a (click)=" openLogin()" class="login_link"> Click here </a></p>
+        </form>
+    </div>
+</div>
+
+
+<!-- LOGIN FORM  -->
+<div class="container" *ngIf="showLogin">
+    <div class="login">
+        <h1>Login</h1>
+        <p class="error_msg">{{ loginErrorMsg }}</p>
+        <form class="common_form" [formGroup]="loginForm" (ngSubmit)="login(loginForm.value)">
+
+            <input class="form_input" type="text" formControlName="email" placeholder="EMAIL">
+            <div *ngIf="((loginSubmitted && f['email'].errors) || (f['email'].touched) || (f['email'].dirty) )"
+                class="invalid-feedback d-block">
+                <div *ngIf="f['email'].errors?.['required'] || f['email'].errors?.['email']">
+                    Please Enter valid Email</div>
+            </div>
+
+            <input class="form_input" type="password
+            " formControlName="password" placeholder="PASSWORD">
+            <div *ngIf="((submitted && f['password'].errors) || (f['password'].touched) || (f['password'].dirty) )"
+                class="invalid-feedback d-block">
+                <div *ngIf=" f['password'].errors?.['required'] || f['password'].errors?.['minlength'] || f['password'].errors?.['maxlength'] " >
+                    Please Enter Valid password
+                </div>
+            </div>
+
+
+            <button class="form_button">Login</button>
+            <p> Don't have an account? <a (click)=" openSignUp()" class="login_link"> Click here </a></p>
+        </form>
+    </div>
+</div>

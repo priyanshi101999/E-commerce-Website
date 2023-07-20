@@ -1,0 +1,33 @@
+.container {
+    padding: 56px;
+    margin: auto;
+    align-items: center;
+    margin-top: 32px;
+    background-color: white;
+    width: 372px;
+    margin-bottom: 80px;
+}
+
+
+.container h1 {
+    margin: 0;
+}
+
+.container button{
+    margin-top: 64px;
+}
+
+.common_form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-top: 56px;
+}
+
+
+
+.login_link {
+    margin-bottom: 60px;
+    color: rgb(58, 1, 94);
+    cursor: pointer;
+}

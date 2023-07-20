@@ -1,0 +1,27 @@
+
+<div class="container">
+    <h1>My Orders</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Sr no.</td>
+                <td>OrderId</td>
+                <td>Price</td>
+                <td>Status</td>
+                <td>Action</td>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let item of orderList let i = index">
+                <td>{{i+1}}</td>
+                <td>{{item.id}}</td>
+                <td>{{item.totalPrice}}</td>
+                <td>In Progress</td>
+                <td><button (click)="cancelOrder(item.id)"> Cancel Order</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,61 +1,94 @@
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
-    background-color: #0084d6;
+    background-color: white;
+    color: black;
     align-items: center;
-    padding: 12px;
+    padding: 12px 20px 12px 20px;
+    /* width: 100%; */
+    margin: 0px;
 }
 
-.nav h1{
-
-color: white;
-margin: 0;
-font-size: 40px;
+.nav h1 {
+    cursor: pointer;
+    color: black;
+    margin: 0;
+    font-size: 40px;
 }
 
-.nav ul{
+.nav ul {
     display: inline-flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
 }
 
-.nav li{
+.nav li {
     margin-left: 15px;
     margin-top: 15px;
 }
 
-.nav li a{
-    color: white;
+.nav ul li a {
+    color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.nav .nav_search{
+.nav .nav_search {
     display: flex;
-    
+
 }
-.nav .nav_search{
+
+.nav .nav_search {
     display: flex;
     flex-grow: 1;
     margin-left: 12%;
     margin-right: 12%;
+
 }
 
-.nav .nav_search input{
+.nav .nav_search input {
     color: grey;
-    border: 1px solid white;
+    border: 1px solid #ddd;
     flex-grow: 1;
     display: flex;
     border-right: 0;
-height: 32px;
-padding-left: 8px;
+    height: 35px;
+    padding-left: 8px;
 }
 
-.nav .nav_search button{
+.nav .nav_search button {
     color: grey;
     border: 1px solid white;
-   color: white;
-    background-color: #0084d6 ;
-height: 35px;
+    color: white;
+    background-color: rgb(58, 1, 94);
+    height: 35px;
+    width: 64px;
+}
+
+
+ol {
+    display: list-item;
+    position: absolute;
+    list-style: inherit;
+    background-color: white;
+    z-index: 1;
+    margin: 0px;
+    padding-left: 12px;
+    top: 58px;
+    padding: 0px;
+
+}
+
+
+.suggestedResult .productList {
+    padding: 8px;
+    border: 1px solid #eaeaea;
+    margin: 0px;
+}
+
+.suggestedResult li a {
+    color: black;
+    cursor: pointer;
 }
